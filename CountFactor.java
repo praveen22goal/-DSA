@@ -12,7 +12,7 @@ public class Main {
     }
     public static int countFactorOptimized(int n){
       int count=0;
-      for(int i=1;i<=n/i;i++){
+      for(int i=1;(long)i*i<=n;i++){  //   n/i<=n;
           if(n%i==0){
             if(i==n/i){
               count++;
@@ -25,7 +25,7 @@ public class Main {
       return count;        
     }
     public static void main(String[] args) {      
-      System.out.println("Factor count "+countFactorBrutforce(100));
+      System.out.println("Factor count "+countFactorBrutforce(24));
       System.out.println("Factor count "+countFactorOptimized(100));
     }
 }
