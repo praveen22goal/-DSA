@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class CountFactor {
     public static int countFactorBrutforce(int n){
        int count=0;
        for(int i=1;i<=n;i++){
