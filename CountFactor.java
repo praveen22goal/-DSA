@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class CountFactor {
-    public static int countFactorBrutforce(int n){
+    public static int countFactorBruteforce(int n){
        int count=0;
        for(int i=1;i<=n;i++){
            if(n%i==0){
@@ -25,7 +25,7 @@ public class CountFactor {
       return count;        
     }
     public static void main(String[] args) {      
-      System.out.println("Factor count "+countFactorBrutforce(24));
+      System.out.println("Factor count "+countFactorBruteforce(24));
       System.out.println("Factor count "+countFactorOptimized(100));
     }
 }
