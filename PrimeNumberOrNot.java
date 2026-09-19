@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class PrimeNumberOrNot {
-    public static boolean isPrimeBrutforce(int n){
+    public static boolean isPrimeBruteforce(int n){
        if(n<=1){
           return false;
        }
@@ -27,7 +27,7 @@ public class PrimeNumberOrNot {
        return true;      
     }
     public static void main(String[] args) {      
-      System.out.println("is Prime Number "+isPrimeBrutforce(4));
-      System.out.println("is Prime Number "+isPrimeOptimized(4));
+      System.out.println("is Prime Number "+isPrimeBruteforce(4));
+      System.out.println("is Prime Number "+isPrimeOptimized(91));
     }
 }
