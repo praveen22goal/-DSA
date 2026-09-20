@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SumOfN {
+public class SumOfNaturalNumbers {
     public static int sumBruteForceCalculation(int n){
        int sum=0;
        for(int i=1;i<=n;i++){
